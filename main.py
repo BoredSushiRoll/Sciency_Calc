@@ -237,6 +237,7 @@ Button(calc, text=chr(177), width=6, height=2, bg='dark green', font=('Arial', 2
 
 Button(calc, text="=", width=6, height=2, bg='dark green', font=('Arial', 20, 'bold'), bd=4,
        command=added_value.sum_of_total).grid(row=5, column=3, pady=1)
+
 # ROW 1 :
 Button(calc, text="pi", width=6, height=2, bg='black', fg='white', font=('Arial', 20, 'bold'), bd=4,
        command=added_value.pi).grid(row=1, column=4, pady=1)
